@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+ <channel>
+   <title>My Portfolio</title>
+   <link>https://www.index66-18.github.io/</link>
+   <description>This is my Portfolio</description>
+
+  <item>
+    <title>Portfolio</title>
+    <link>https://www.index66-18.github.io/index</link>
+    <description>Welcome to the main page</description>
+  </item> 
+ </channel>
+</rss> 

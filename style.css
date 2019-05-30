@@ -1,0 +1,233 @@
+@import "https://fonts.googleapis.com/css?family=Indie+Flower&display=swap";
+ @import "https://fonts.googleapis.com/css?family=Kodchasan&display=swap";
+ @keyframes "slode" {
+	 0% {
+		 left: 0;
+	}
+	 20% {
+		 left: 0;
+	}
+	 25% {
+		 left: -100%;
+	}
+	 45% {
+		 left: -100%;
+	}
+	 50% {
+		 left: -200%;
+	}
+	 70% {
+		 left: -200%;
+	}
+	 75% {
+		 left: -300%;
+	}
+	 95% {
+		 left: -300%;
+	}
+	 100% {
+		 left: -400%;
+	}
+}
+ html {
+	 scroll-behavior: smooth;
+}
+ body {
+	 margin: 0;
+	 font-family: Kodchasan, sans-serif;
+	 background-color: #e8e5b7;
+}
+ img {
+	 max-width: 100%;
+	 height: auto;
+}
+ #slider {
+	 overflow: hidden;
+}
+ #slider figure {
+	 position: relative;
+	 width: 500%;
+	 margin: 0;
+	 left: 0;
+	 text-align: left;
+	 font-size: 0;
+	 animation: 30s slode infinite;
+}
+ #slider figure img {
+	 width: 20%;
+	 float: left;
+	 height: 1200px;
+	 -webkit-filter: brightness(75%);
+	 -moz-filter: brightness(75%);
+	 filter: url(#brightness);
+	 filter: brightness(75%);
+}
+ #menu {
+	 background: linear-gradient(150deg, rgba(250, 147, 110, 1) 14%, rgba(237, 242, 23, 1) 67%);
+	 width: 100%;
+	 height: 150px;
+	 -moz-box-shadow: 0 0 30px 5px #999;
+	 -webkit-box-shadow: 0 0 30px 5px #999;
+	 top: 0;
+	 z-index: 100;
+	 position: fixed;
+}
+ #menu ul {
+	 float: right;
+	 margin-top: -120px;
+	 margin-right: 200px;
+	 list-style: none;
+	 display: flex;
+}
+ #menu ul li {
+	 padding: 25px;
+	 font-size: 30px;
+}
+ #menu ul li a {
+	 text-decoration: none;
+	 color: #000;
+}
+ .navi a {
+	 transition: 0.3s ease;
+}
+ .navi a:hover {
+	 border-bottom: 4px solid #000;
+	 padding: 6px 0;
+}
+ #about {
+	 width: 100%;
+	 height: 900px;
+	 background-color: #e8e5b7;
+	 margin: 0;
+}
+ #about h1 {
+	 font-family: 'Indie Flower', cursive;
+	 font-size: 100px;
+	 margin-top: -250px;
+	 margin-left: 1100px;
+	 z-index: 1;
+	 position: absolute;
+}
+ #about img {
+	 padding-top: 100px;
+}
+ .bio {
+	 background: #e9e4c2;
+}
+ .bio summary {
+	 outline: 0;
+	 font-size: 25px;
+	 padding: 20px;
+	 margin-top: 100px;
+	 background: linear-gradient(142deg, rgba(255, 198, 111, 1) 63%, rgba(233, 228, 194, 1) 91%);
+	 border-radius: 5px;
+	 margin-right: 15px;
+}
+ .bio p {
+	 font-size: 25px;
+}
+ .bio ul li {
+	 font-size: 25px;
+}
+ .bio ul li a {
+	 text-decoration: none;
+}
+ #right {
+	 width: 50%;
+	 float: right;
+	 margin-top: -500px;
+}
+ #intro p {
+	 font-size: 60px;
+	 font-weight: bold;
+}
+ #contact {
+	 height: 1000px;
+	 background-color: #a2a5aa;
+	 background-image: url(back.jpg);
+	 background-repeat: no-repeat;
+	 background-size: cover;
+}
+ #form form {
+	 max-width: 420px;
+	 margin: 50px auto;
+	 padding-top: 150px;
+	 font-family: Kodchasan, sans-serif;
+}
+ #form .input {
+	 color: #fff;
+	 font-weight: 500;
+	 font-size: 18px;
+	 border-radius: 5px;
+	 line-height: 22px;
+	 background-color: transparent;
+	 border: 2px solid #000;
+	 transition: all 0.3s;
+	 padding: 13px;
+	 margin-bottom: 15px;
+	 width: 100%;
+	 box-sizing: border-box;
+	 outline: 0;
+	 font-family: Kodchasan, sans-serif;
+}
+ #form .input:focus {
+	 border: 2px solid #cc4949;
+}
+ #form textarea {
+	 height: 150px;
+	 line-height: 150%;
+	 resize: vertical;
+}
+ #form [type=submit] {
+	 width: 100%;
+	 background: #000;
+	 border-radius: 5px;
+	 border: 0;
+	 color: #fff;
+	 font-size: 24px;
+	 padding-top: 10px;
+	 padding-bottom: 10px;
+	 transition: all 0.3s;
+	 margin-top: -4px;
+	 font-weight: 700;
+	 font-family: Kodchasan, sans-serif;
+}
+ #form [type=submit]:hover {
+	 background: #8c0909;
+}
+ #media {
+	 display: flex;
+	 flex-direction: row;
+	 margin-left: 870px;
+}
+ #media a {
+	 padding: 15px;
+	 text-decoration: none;
+	 color: #000;
+	 font-size: 40px;
+	 display: flex;
+}
+ #footer {
+	 height: 800px;
+	 background-color: #000;
+}
+ #footer h2 {
+	 color: #fff;
+	 margin: 0 auto;
+	 display: table;
+	 padding-top: 50px;
+}
+ #footer iframe {
+	 margin: 100px 0 0 650px;
+}
+ #links {
+	 display: flex;
+	 margin-top: 50px;
+}
+ #links a {
+	 text-decoration: none;
+	 color: #fff;
+	 font-size: 25px;
+	 margin: 0 auto;
+}
+ 

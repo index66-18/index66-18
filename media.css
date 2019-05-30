@@ -1,0 +1,109 @@
+@media only screen and (max-width:340px){
+   #menu{
+      height: 220px;
+   }
+   #menu .navi{
+      margin-top: 100px;
+      margin-left: 50px;
+   }
+   #logo{
+      margin-left: 200px;
+   }
+   #about{
+      height:3000px;
+   }
+   #me img{
+      padding-left:-330px;
+   }
+   #footer #map iframe{
+      visibility: hidden;
+   }
+   #contact #media a{
+      visibility: hidden;
+   }
+}
+@media only screen and (max-width : 768px) {
+   #title h1{
+      font-size: 25px;
+      margin-left: 550px;
+      color: aliceblue;
+   }
+   #about {
+      display: flex;
+      flex-direction: column;
+      height: 2000px;
+   }
+   #right{
+      margin-top: 100px;
+      margin-left: 200px;
+   }
+   #about img{
+      margin-left: 100px;
+   }
+   #media {
+      float: left;
+      margin-left:800px;
+   }
+   #footer {
+      width: 100%;
+   }
+   #footer iframe{
+      margin-left: 100px;
+   }
+}
+
+@media only screen and (max-width: 1030px) {
+   #title {
+      font-size: 85px;
+      margin-left:-310px;
+      margin-right: 100px;
+   }
+   body #footer #map iframe{
+      width: 500px;
+      margin-left: 350px;
+      margin-right: -150px;
+      float:right;
+   }
+   #media {
+      float: right;
+      margin-right: 300px;
+   }
+   #about img{
+      width:450px;
+   }
+}
+
+@media only screen and (max-width : 1450px) {
+   #title h1{
+      font-size: 85px;
+      margin-right: -10px;
+   }
+   #map{
+      padding-right: 520px;
+   }
+   body #menu .navi{
+      margin-right:-150px; 
+  }
+  #map{
+   float:right;
+   margin-right: -120px;
+  }
+}
+
+@media only screen and (max-width : 1681px) {
+   #slider #about #contact #footer{
+      width:100%;
+   }
+   #title h1{
+      margin-right: 300px;
+      margin-bottom: 20px;
+      font-size: 90px;
+   }
+   body #contact #media a{
+      margin-left: -160px;
+      padding-right: 155px;
+   }
+   body #footer #map iframe{
+      margin-left: 550px;
+   }
+}
